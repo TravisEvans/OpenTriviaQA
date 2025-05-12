@@ -10,8 +10,17 @@ total = cur.fetchone()[0]
 print(f"Total questions: {total}")
 
 # whole table
-cur.execute("""SELECT category, question, answer, choices
-FROM trivia""")
+# cur.execute("""
+#     SELECT category, question, answer, choices
+#     FROM trivia""")
+
+# change above to following to make random single question show
+cur.execute("""
+    SELECT category, question, answer, choices
+    FROM trivia
+    ORDER BY RANDOM()
+    LIMIT 1;""")
+
 rows = cur.fetchall()
 
 for id, row in enumerate(rows, 1):
