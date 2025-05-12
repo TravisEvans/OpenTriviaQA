@@ -1,3 +1,4 @@
+
 #Q What is NOT one of Strong Bads favorite bands in the Internet cartoon Homestar Runner?
 ^ sloshy
 A sloshy
@@ -1081,6 +1082,11 @@ B False
 
 #Q Complete this line from the classic childrens book Green Eggs and Ham:
 I am ______.
+^ Sam
+A A Lamb
+B Jean-Claude Van Damme
+C Sam
+D Bam-Bam
 
 #Q The book Green Eggs and Ham was first published in 1952.
 ^ False
@@ -1101,6 +1107,11 @@ B True
 
 #Q Complete this line from the book Green Eggs and Ham:
 I do not like them in a box! I do not like them with a _____!
+^ Fox
+A Dog with Chicken Pox
+B Bag of Rocks
+C Clock
+D Fox
 
 #Q The book Green Eggs and Ham contains only 50 different words.
 ^ True
@@ -1777,6 +1788,7 @@ C 19
 D 16
 
 #Q What does x equal in this equation?
+
 4x+4=12
 ^ 2
 A 8
@@ -1810,6 +1822,7 @@ C 12
 D 13
 
 #Q Is this correct?
+
 2-3+1-4+4-=0
 ^ Yes
 A No
@@ -1823,6 +1836,7 @@ C 207
 D 17
 
 #Q What is the missing number?
+
 2,4,7,11,?,22
 ^ 16
 A 16
@@ -4654,6 +4668,7 @@ B Throat
 C Elf
 D Harry
 
+
 #Q Whats the last line of the nursery rhyme Little Bo Peep:
 Little Bo Peep has lost her sheep 
 And cant tell where to find them. 
@@ -4753,9 +4768,19 @@ D Harry Potter and the Prisoner of Azkaban
 
 #Q Complete this line from the classic childrens book Green Eggs and Ham:
 I am ______.
+^ Sam
+A Bam-Bam
+B Jean-Claude Van Damme
+C Sam
+D A Lamb
 
 #Q Complete this line from the book Green Eggs and Ham:
 I do not like them in a box! I do not like them with a _____!
+^ Fox
+A Clock
+B Dog with Chicken Pox
+C Bag of Rocks
+D Fox
 
 #Q What word is missing in this line from the book Green Eggs and Ham:
 Would you? Could you?
@@ -4767,7 +4792,13 @@ C Line at the DMV
 D Bucket of boiled beets
 
 #Q In what Disney film does the following exchange take place:
-I want to do something for her... but what?
+I want to do something for her... but what? 
+Well, theres the usual things: flowers... chocolates... promises you dont intend to keep... ?
+^ Beauty and the Beast
+A The Black Cauldron
+B Sleeping Beauty
+C Lady and the Tramp
+D Beauty and the Beast
 
 #Q What Disney film is this dialogue from:
 Uh-oh.

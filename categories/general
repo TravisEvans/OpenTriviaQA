@@ -1,3 +1,4 @@
+
 #Q This drink contains caffeine.
 ^ Coffee
 A Mineral water
@@ -6,6 +7,7 @@ C Coffee
 D Beer
 
 #Q Finish the proverb:
+
 Poets are born, ________.
 ^ ...not made.
 A ...not made.
@@ -168,7 +170,7 @@ B MiloÅ¡ Forman
 C Pedro AlmodÃ³var
 D Martin Scorsese
 
-#Q Across the Hall, Friends Like Us, Insomnia Cafï¿½ and Six of One are all working titles of one of famous US TV-series.  Name the series.
+#Q Across the Hall, Friends Like Us, Insomnia Café and Six of One are all working titles of one of famous US TV-series.  Name the series.
 ^ Friends
 A Friends
 B Sex and the City
@@ -2677,7 +2679,13 @@ C $100
 D $12
 
 #Q Solve for X:
+
 X = [(number of arms on a squid) - (height in feet of an NBA basketball hoop)] * [number of minutes taken for light from the sun to reach the earth]
+^ 0
+A 8
+B 24
+C 72
+D 0
 
 #Q Homers epic poems, The Iliad and The Odyssey, are made up of this many books each.
 ^ 24
@@ -3059,7 +3067,7 @@ B Austrian biologists
 C German biologists
 D German chemists
 
-#Q Tomas Transtrï¿½mer, Assia Djebar and Raja Rao have won one, what is it?
+#Q Tomas Tranströmer, Assia Djebar and Raja Rao have won one, what is it?
 ^ Neustadt International Prize for Literature
 A Bobbitt National Prize for Poetry
 B Pulitzer Prize for Poetry
@@ -3528,7 +3536,7 @@ D Treaty of San Stefano
 ^ Arsenal FC
 A Real Madrid CF
 B Arsenal FC
-C FC Bayern Mï¿½nchen
+C FC Bayern München
 D AC Milan
 
 #Q Which of the following artists does not produce trance music?
@@ -4071,6 +4079,7 @@ C Alex and Nicky
 D Dave and Otis
 
 #Q What four words end the first two lines of this famous Christmas poem ?
+
 Twas the night before Christmas, when all through the house
 Not a creature was stirring, ___ ___ __ _____.
 ^ not even a mouse.
@@ -7587,7 +7596,7 @@ D Jeniffer Aniston and Brad Pitt
 ^ FL (Flawless)
 A IF (Internally Flawless)
 B FL (Flawless)
-C I1 (Imperfect ï¿½ Level 1)
+C I1 (Imperfect – Level 1)
 D VS1 / VS2 (Very Slightly Included)
 
 #Q Diamond is the birthstone of people who were born in this month.
@@ -15218,6 +15227,9 @@ D a band
 
 #Q The following group of words (as a whole) makes up a palindrome:
 A man.  A plan.  A canal.  Panama.
+^ True
+A False
+B True
 
 #Q Which African American invented the traffic light?
 ^ Garrett Morgan
@@ -18269,6 +18281,7 @@ B China
 C United States
 D All of these
 
+
 #Q This US states name means People of the south wind. The buffalo and the honeybee are just two of its symbols. It is located equidistant from the Pacific and the Atlantic Ocean. Susanna Salter (the first woman mayor in the US) was elected mayor of a city in this state.
 ^ Kansas
 A Wyoming
@@ -18875,6 +18888,11 @@ D Although it is a Catholic school, Hebrew is a required subject.
 
 #Q Solve for X:
 X = [(number of arms on a squid) - (height in feet of an NBA basketball hoop)] * [number of minutes taken for light from the sun to reach the earth]
+^ 0
+A 8
+B 24
+C 0
+D 72
 
 #Q What is a moirologist?
 ^ Someone paid to mourn at a funeral
@@ -21904,6 +21922,9 @@ D Mr. Greenjeans
 
 #Q The following group of words (as a whole) makes up a palindrome:
 A man.  A plan.  A canal.  Panama.
+^ True
+A True
+B False
 
 #Q What musician is often referred to as The Man in Black?
 ^ Johnny Cash

@@ -1,3 +1,4 @@
+
 #Q LFD2 was banned in Australia.
 ^ True
 A False
@@ -193,7 +194,7 @@ B San Francisco
 C Nevada
 D Los Angeles
 
-#Q When broken down into kanji, the name of this capital city means ÔøΩeastÔøΩ and ÔøΩcapitalÔøΩ.
+#Q When broken down into kanji, the name of this capital city means ìeastî and ìcapitalî.
 ^ Tokyo
 A Nagoya
 B Osaka
@@ -242,7 +243,7 @@ B Naples
 C Venice
 D Rome
 
-#Q This Peruvian city is stuck between the desert and the sea. It is also known as ÔøΩThe City of the KingsÔøΩ.
+#Q This Peruvian city is stuck between the desert and the sea. It is also known as ìThe City of the Kingsî.
 ^ Lima
 A Trujillo
 B Cuzco
@@ -343,14 +344,14 @@ B Malaysia
 C Indonesia
 D Surinam
 
-#Q Local Batonga people had named Victoria Falls Mosi-Oa-Tunya, which stands for ÔøΩthe smoke that thundersÔøΩ.
+#Q Local Batonga people had named Victoria Falls Mosi-Oa-Tunya, which stands for ìthe smoke that thundersî.
 ^ Zimbabwe
 A Malawi
 B Zimbabwe
 C Mozambique
 D Namibia
 
-#Q The scientific name for the Northern Lights phenomenon is ÔøΩAurora Borealis. They are often mistaken for UFOs.  Where do they happen?
+#Q The scientific name for the Northern Lights phenomenon is ìAurora Borealis. They are often mistaken for UFOs.  Where do they happen?
 ^ In the northern part of our planet
 A In the southern part of our planet
 B On the Equator
@@ -1143,6 +1144,7 @@ A True
 B False
 
 #Q Finish the popular Christmas carol:
+
 Silent night Holy night
 All is calm all is bright
 Round yon virgin Mother and Child
@@ -1898,12 +1900,13 @@ A No
 B Yes
 
 #Q This line is from a Christmas song, written by Burl Ives. Which is the song?
-I don‚Äôt know if there‚Äôll be snow, but have a cup of cheer.
-^ Have a Holly Jolly Christmas
-A Have Yourself a Merry Little Christmas
-B White Christmas
-C Let It Snow! Let It Snow! Let It Snow!
-D Have a Holly Jolly Christmas
+
+I dont know if theyll be snow, but have a cup of cheer.
+^ Holly Jolly Christmas
+A Away in a Manger
+B Holly Jolly Christmas
+C Silent Night
+D Jingle Bells
 
 #Q What does Frosty the Snowman, the character from an animated story produced by the Rankin-Bass company, say when he wakes up?
 ^ Happy Birthday!
@@ -2664,6 +2667,7 @@ C Flowery
 D Sandy
 
 #Q Here is the refrain of the state song of Florida, The Swanee River. However, its lines are jumbled. Can you put them in the right order?
+
 1) Far from the old folks at home
 2) Everywhere I roam.
 3) All the world is sad and dreary
@@ -5116,6 +5120,7 @@ C Great Water
 D Rich Lake
 
 #Q Arrange the following oceans by their total area, starting with the largest:
+
 1)The Atlantic Ocean
 2)The Pacific Ocean
 3)The Indian Ocean
@@ -5859,6 +5864,7 @@ C All of these
 D Denzel Washington
 
 #Q Finish the lyrics of the official state song of California, I Love You, California written by F. B. Silverwood:
+
 Where the snow crowned Golden Sierras
 Keep their watch oer the valleys bloom,
 It is there I would be in our land by the sea,
@@ -6145,14 +6151,17 @@ D alleyway
 #Q Find the missing words:
 He was dressed all in fur, from his head to his foot,
 And his clothes were all tarnished with ashes and soot;
-^ A bundle of toys he had flung on his back,
-A A bundle of toys he had flung on his back,
-B A basket of goodies he had slung on his back,
-C A sack of presents he had slung on his back,
-D A bundle of fruit he had flung on his back,
+A bundle of toys he had flung on his back,
+And he looked like a peddler ____ _______ ___ ____.
+^ just opening his pack.
+A walking with Sirius Black.
+B just talking some smack.
+C who stepped on a tack.
+D just opening his pack.
 
 #Q Complete the verse:
 His eyes -- how they twinkled! his dimples how merry!
+
 His cheeks were like roses, his nose like _____ ______ !
 ^ a cherry
 A Spongebobs snail Gary
@@ -6182,6 +6191,7 @@ D a salami at the deli
 
 #Q What word is missing?
 And laying his finger aside of his _____,
+
 And giving a nod, up the chimney he rose;
 ^ nose
 A nose
@@ -6193,6 +6203,7 @@ D pantyhose
 He sprang to his sleigh, to his team gave a whistle,
 And away they all flew like the down of a thistle.
 But I heard him exclaim, ere he drove out of sight,
+
 Happy Christmas to all, ___ __ ___ _ ____ _____.!!
 ^ and to all a good night !!
 A hope I didnt give you a fright !!
@@ -7068,7 +7079,9 @@ C 1184
 D 1284
 
 #Q Leonardo of Pisa or Leonardo Pisano, also known as Fibonacci, was an Italian mathematician and is best known for the discovery of the Fibonacci numbers, which form the following sequence. 
+
 0, 1, 1, 2, 3, 5, ...
+
 Do you know what the next number is?
 ^ 8
 A 8
@@ -8870,6 +8883,7 @@ C Good Will Hunting (1997)
 D Dogma (1999)
 
 #Q Pittsburgh is home to many universities and research facilities. One of them is described here:
+
 It is a private research university. It houses the first computer science school and the first drama school in the nation as well as one of the best engineering schools, and its public policy and business schools are consistently ranked among the best in the nation.
 ^ Carnegie Mellon University
 A University of Pittsburgh
@@ -9014,6 +9028,7 @@ C John Stafford Smith
 D Joseph H Nicholson
 
 #Q This is a translation of the chorus of the national anthem of which country?
+
 To arms, citizens!
 Form your battalions!
 March, march!
@@ -9054,6 +9069,7 @@ C Canada
 D Italy
 
 #Q Finish these lyrics of  the US national anthem.
+
 On the shore, dimly seen through the mists of the deep,
 Where the foes haughty host in dread silence reposes,
 What is that which the breeze, oer the towering steep,
@@ -10291,7 +10307,7 @@ B Sunrise Mountain
 C Telescope Peak
 D Mt. Charleston
 
-#Q Nike started the Just Do ItÔøΩ? campaign in this year.
+#Q Nike started the Just Do It‚Ä? campaign in this year.
 ^ 1988
 A 1988
 B 1992
@@ -10537,6 +10553,7 @@ C Mary Pickford
 D Adele Astaire
 
 #Q Complete these lyrics from the popular Easter song, Here Comes Peter Cottontail:
+
 Hes got jellybeans for Tommy,
 Colored eggs for sister Sue,
 Theres an orchid for your mommy 
@@ -19307,12 +19324,13 @@ A No
 B Yes
 
 #Q The national anthem of which country contains the following lyrics:
-O say, can you see, by the dawn‚Äôs early light,
-^ United States
-A United States
-B United Kingdom
+O say, can you see, by the dawns early light,
+What so proudly we hailed at the twilights last gleaming??
+^ United States of America
+A United States of America
+B England
 C Canada
-D Australia
+D Mexico
 
 #Q These verses are part of the national anthem of which country:
 Your history is an epic
@@ -24354,6 +24372,7 @@ C Joseph Pulitzer
 D William Randolph Hearst
 
 #Q Who said the following:
+
 ‚ÄúNews is something somebody doesnt want printed; all else is advertising.‚Äù?
 ^ William Randolph Hearst
 A Lord Northcliffe
@@ -29708,7 +29727,7 @@ B False
 
 #Q What statement is true about the Prague Astronomical Clock?
 ^ All of these
-A
+A 
 B All of these
 C It has an astronomical dial, representing the position of the Sun and Moon in the sky.
 D It shows the figures of the 12 Apostles.
@@ -30876,6 +30895,8 @@ B On January 3
 C On December 31
 D On January 1
 
+
+
 #Q How does the dog get the pigeons off the antenna at Lake Minnewahwahs mountain in the game Dogs Life?
 ^ He gets a bird feeder to get them down.
 A He gets a bird feeder to get them down.
@@ -31008,6 +31029,7 @@ C 19th Amendment
 D 17th Amendment
 
 #Q The following excerpt is taken from the 13th Amendment. 
+
 Neither slavery nor involuntary servitude, except as a punishment for crime whereof the party shall have been duly convicted, shall exist within the United States, or any place subject to their jurisdiction.
 ^ True
 A True

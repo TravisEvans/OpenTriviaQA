@@ -1,3 +1,4 @@
+
 #Q Greta Garbo was successfully treated for this disease.
 ^ Breast cancer
 A Tuberculosis
@@ -1475,6 +1476,7 @@ B True
 ^ False
 A True
 B False
+
 
 #Q Which movie is this Warcraft 3 quote from?
 Bandit: -What we have here is a failure to communicate.
