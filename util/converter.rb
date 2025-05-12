@@ -1,3 +1,5 @@
+# EDITED WITH OpenAI's GPT 4-o / o3-high
+
 #!/usr/bin/env ruby
 require 'json'
 require 'pathname'
