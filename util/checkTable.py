@@ -31,8 +31,8 @@ for id, row in enumerate(rows, 1):
         print("ERROR AT ID: " + id, start="\n")
 
     print(f"Question {id}:", end=" ")
-    print(f"{question}", end=" ")
     print(f"Category: {category}", end=" ")
+    print(f"{question}", end=" ")
     for i, choice in enumerate(choices, 1):
         print(f"  {chr(64+i)}. {choice}", end=" ")
     print(f"Answer: {answer}")
