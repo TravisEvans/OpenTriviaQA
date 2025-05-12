@@ -1,64 +1,51 @@
 #!/usr/bin/env ruby
-
-# format is like this
-
-#  #Q The author of the novel A Portrait of the Artist as a Young Man is this writer.
-#  ^ James Joyce
-#  A T. S. Eliot
-#  B Samuel Beckett
-#  C William Faulkner
-#  D James Joyce
-
-# use converter like this:
-# ruby converter.rb input_file
-# this will create an input_file.json
-# you can also pass multiple files like so
-# ruby converter.rb input_file1 input_file2
-# or even like so
-# ruby converter.rb folder/*
-
 require 'json'
 require 'pathname'
 
-def stripAndEncode(str)
-  return str.strip!.force_encoding('ISO-8859-1').encode('UTF-8')
+# safe `.strip` + ISO-8859-1 → UTF-8
+def strip_and_encode(line)
+  return '' if line.nil?
+  s = line.strip
+  s.force_encoding('ISO-8859-1').encode('UTF-8', invalid: :replace, undef: :replace, replace: '')
 end
 
+grouped = {}
+
 ARGV.each do |file|
-  if File.directory?(file)
-    puts "#{file} is a directory. Skipping."
-    next
-  end
+  next if File.directory?(file)
+  category = Pathname.new(file).basename.to_s
+  grouped[category] ||= []
 
-  questions = []
-  question = {}
+  current = nil
 
-  File.open(file, "r") do |fh|
-    while(line = fh.gets) != nil
-      line = stripAndEncode(line)
-      if line.start_with?('#Q ')
-        question[:question] = line[3..-1]
-        question[:category] = Pathname.new(file).basename
-        until (line = fh.gets) == nil || line.start_with?('^ ') do
-          line = stripAndEncode(line)
-          question[:question] << "\n"
-          question[:question] << line
-        end
-        line = stripAndEncode(line)
+  File.foreach(file, encoding: 'ISO-8859-1') do |raw|
+    line = strip_and_encode(raw)
+
+    case line
+    when /\A#Q\s+(.*)/
+      # push last question, start new
+      grouped[category] << current if current
+      current = { "question" => $1.dup, "choices" => [] }
+    when /\A\^\s+(.*)/
+      current && current.merge!("answer" => $1)
+    when /\A([A-Z])\s+(.*)/
+      current && current["choices"] << $2
+    when ''  # blank line ends a question
+      if current
+        grouped[category] << current
+        current = nil
       end
-
-      if line.start_with?('^ ')
-        question[:answer] = line[2..-1]
-      elsif ('A '..'Z ').include?(line[0..1])
-        question[:choices] ||= []
-        question[:choices] << line[2..-1]
-      elsif line.empty?
-        questions << question unless question.empty?
-        question = {}
-      end
+    else
+      # continuation of a multi-line question
+      current && current["question"] << "\n" << line
     end
   end
 
-  File.write("#{file}.json", questions.to_json)
+  # push last if file didn’t end with a blank
+  grouped[category] << current if current
 end
 
+# write out a single JSON file your json2sql.py can load with `data.items()`
+File.open('grouped_questions.json','w') do |f|
+  f.write JSON.pretty_generate(grouped)
+end
