@@ -1,12 +1,21 @@
 import json
 import sqlite3
+import sys
+import glob
+from pathlib import Path
 
-# sql first
-con = sqlite3.connect("triva.db")
+# get path to json
+args = sys.argv[1:] 
+if not args:
+    print("Usage: py json2sql.py <file1>") # this will maybe be updated one day
+    sys.exit(1)
+
+# sql time
+con = sqlite3.connect("trivia.db")
 cur = con.cursor()
 
 # mAke the table
-cur.execute(''' 
+cur.execute(""" 
 CREATE TABLE IF NOT EXISTS trivia (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     category TEXT NOT NULL,
@@ -15,18 +24,35 @@ CREATE TABLE IF NOT EXISTS trivia (
     choices TEXT NOT NULL,
     UNIQUE(category, question)
 )
-''')
+""")
+
+# CURRENTLY OVERWORKED AND REDUNDANT
+files = []
+for arg in args:
+    matches = glob.glob(arg) or [arg]
+
+    for m in matches: # i cbf making it take multiple files rn
+        p = Path(m) # get arg as path (for TODO::iteration, but not rn)
+        files.append(str(p))
+
+
+JSONpath = []
+if not files:
+    print("Invalid input provided.")
+    sys.exit(1)
 
 # json import
-with open('grouped_questions.json', 'r', encoding='utf-8') as trivia_json:
-    data = json.load(trivia_json)
+data = None
+for f in files:
+    with open(f, "r", encoding="utf-8") as trivia_json:
+        data = json.load(trivia_json)
 
 counter = 0
 
 # make some gd data, iterate that shit into the table
 for category, questions in data.items():
     for q in questions:
-        q['category'] = category # To ensure unique tag not triggered
+        q["category"] = category # To ensure unique tag not triggered
         
         if not all(k in q for k in ("question", "answer", "choices")):
             print(f"\n!!! Skipping malformed question in category '{category}': {q}\n")
@@ -42,9 +68,7 @@ for category, questions in data.items():
             (category, question, answer, choices)
         )
 
-print(counter)
-print(counter)
-print(counter)
+print("Total errors: ", counter)
 
 # safety
 con.commit()

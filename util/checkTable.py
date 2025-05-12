@@ -1,7 +1,7 @@
 import sqlite3
 import json
 
-con = sqlite3.connect("triva.db")
+con = sqlite3.connect("trivia.db")
 cur = con.cursor()
 
 # Count total questions
